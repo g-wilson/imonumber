@@ -1,0 +1,36 @@
+{
+  "name": "imonumber",
+  "version": "1.0.0",
+  "description": "Vessel IMO number validator for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-wilson/imonumber.git"
+  },
+  "keywords": [
+    "shipping",
+    "vessel",
+    "maritime",
+    "ships",
+    "ais",
+    "container",
+    "bulk",
+    "insurance",
+    "trade"
+  ],
+  "author": {
+    "name": "George Wilson",
+    "email": "george@g-wilson.co.uk",
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g-wilson/imonumber/issues"
+  },
+  "homepage": "https://github.com/g-wilson/imonumber#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
