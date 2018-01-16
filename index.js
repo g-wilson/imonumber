@@ -18,7 +18,7 @@ module.exports.validate = function validateImoNumber(imoStr) {
   const last = parseInt(str.slice(-1), 10)
   if (isNaN(last)) return false
 
-  check = [].map.call(str.slice(3, 9), d => parseInt(d, 10))
+  const check = [].map.call(str.slice(3, 9), d => parseInt(d, 10))
     .filter(d => !isNaN(d))
     .reduce((c, d, i) => {
       return c + ((7 - i) * d)
