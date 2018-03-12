@@ -1,6 +1,6 @@
 {
   "name": "imonumber",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vessel IMO number validator for Node.js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/g-wilson/imonumber.git"
+    "url": "git+https://github.com/tallysticks/imonumber.git"
   },
   "keywords": [
     "shipping",
@@ -27,9 +27,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/g-wilson/imonumber/issues"
+    "url": "https://github.com/tallysticks/imonumber/issues"
   },
-  "homepage": "https://github.com/g-wilson/imonumber#readme",
+  "homepage": "https://github.com/tallysticks/imonumber#readme",
   "engines": {
     "node": ">=6.0.0"
   },
